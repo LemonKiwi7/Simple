@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="91dp"
+        android:onClick="orderIcecream"
+        android:src="@drawable/icon_icecream" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:onClick="orderDonut"
+        android:src="@drawable/icon_donut" />
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:onClick="orderFroyo"
+        android:src="@drawable/icon_froyo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox1_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chocolate_syrup" />
+
+        <CheckBox
+            android:id="@+id/checkbox2_sprinkles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sprinkles" />
+
+        <CheckBox
+            android:id="@+id/checkbox3_nuts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crushed_nuts" />
+
+    </LinearLayout>
+
+</LinearLayout>
